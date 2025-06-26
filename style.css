@@ -598,7 +598,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio-image {
   flex: 1;
-  min-width: 350px;
+  min-width: 0px;
 }
 
 .portfolio-image img {
@@ -663,7 +663,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Mobile responsive */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .portfolio-card {
     flex-direction: column;
   }
@@ -674,6 +674,33 @@ h1, h2, h3, h4, h5, h6 {
 
   .portfolio-details {
     padding: 20px;
+  }
+} */
+
+
+
+@media (max-width: 768px) {
+  .portfolio-card {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto 30px;
+  }
+
+  .portfolio-image,
+  .portfolio-details {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .portfolio-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .portfolio-details {
+    padding: 20px;
+    box-sizing: border-box;
   }
 }
 
