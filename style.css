@@ -13,7 +13,8 @@ h1, h2, h3, h4, h5, h6 {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding-inline: 20px;
+    padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* Navbar */
@@ -64,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
- padding: 50px 0 40px 0; 
+  padding: 50px 20px 40px 20px; 
 }
 
 .hero-text {
@@ -239,7 +240,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   .container {
-    padding-inline: 16px;
+     padding-left: 16px;
+    padding-right: 16px;
   }
 }
 
