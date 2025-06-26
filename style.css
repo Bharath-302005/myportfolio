@@ -808,6 +808,19 @@ ul li a {
   text-decoration: none;
 }
 
+.copyright {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #555;
+}
+
+.copyright span {
+  font-weight: bold;
+  color: orange;
+}
+
+
 
 /* Animation Base */
 .animate {
