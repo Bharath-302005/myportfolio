@@ -874,7 +874,7 @@ ul li a {
 .animate-on-scroll {
   opacity: 0;
   transform: translateY(20px);
-  transition: all 1.5s ease-out;
+  transition: all 2s ease-out;
 }
 
 /* When visible */
