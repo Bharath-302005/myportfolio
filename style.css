@@ -56,7 +56,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .talk-btn:hover {
-  background-color: #c38239e1;
+  background-color: #ff8800;
+  color:white;
 }
 
 /* Hero Section */
